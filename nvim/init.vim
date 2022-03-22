@@ -14,8 +14,10 @@ Plug 'akinsho/bufferline.nvim'
 
 " -- Themes ------------------------
 Plug 'drewtempelmeyer/palenight.vim'
+Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'powerline/powerline'
 
 " -- General Plugins ---------------
 Plug 'sheerun/vim-polyglot'
@@ -23,20 +25,20 @@ Plug 'tpope/vim-surround'
 
 " -- Syntax ------------------------
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+
+
 call plug#end()
 
 " -- Themes and Colors ----------------
 " Palenight 
-colorscheme palenight
-let g:airline_theme='paleninght'
+
+colorscheme gruvbox 
+let g:airline_theme='gruvbox'
 
 " retira a cor padrão de fundo
 set termguicolors
 
 
-" -- Lang ----------------
-Plug 'vim-ruby/vim-ruby'
-Plug 'ruby-formatter/rufo-vim'
 " Habilita formatter para ruby
 let g:rufo_auto_formatting = 1
 
@@ -73,4 +75,4 @@ set cursorline
 set tabstop=2
 set softtabstop=2 
 set ignorecase
-
+set relativenumber
