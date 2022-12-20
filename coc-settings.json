@@ -1,0 +1,13 @@
+{
+  "diagnostic.errorSign": "🔥",
+  "diagnostic.warningSign": "⚠️ ",
+  "diagnostic.infoSign": "🐦",
+  "diagnostic.hintSign": "👀",
+  "javascript.suggestionActions.enabled": false,
+  "javascript.validate.enable": false,
+  "css.validate": false,
+  "scss.validate": false,
+  "languageserver": {},
+  "coc.preferences.formatOnSaveFiletypes": ["cs"],
+}
+
